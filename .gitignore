@@ -1,0 +1,36 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+# Note: Cargo.lock is kept for applications (not libraries)
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Distribution (keep structure, ignore binaries)
+dist/**/*.exe
+dist/**/*.command
+dist/**/*.bat
+dist/**/*.zip
+!dist/**/README.txt
+!dist/**/README.md
+!dist/**/RELEASE_NOTES.txt
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
